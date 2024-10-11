@@ -1,27 +1,45 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    color: #141414;
+    background-color: #161616;
     }
     
+
+    .container {
+      text-align: center;
+      margin: 1rem;
+      height: 525px;
+      width: 400px;
+      border-radius: 4px;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%);
+      background-size: cover;
+      position: relative;
+      color: white;
+      left: 40%;
+    
+    }
     /* Full-width input fields */
     input[type=text], input[type=password] {
-      width: 100%;
+      width: 305px;
       padding: 15px;
-      margin: 5px 0 22px 0;
+      margin: 0px 35px 20px;
       display: inline-block;
       border: none;
       background: #f1f1f1;
+      
+      
+      
     }
     
     input[type=text]:focus, input[type=password]:focus {
-      background-color: #ddd;
+      background-color: #ffffff;
       outline: none;
+      
     }
     
     hr {
       border: 1px solid #f1f1f1;
-      margin-bottom: 25px;
+      margin-bottom: 8ch;
       color: white;
       
     }
@@ -33,6 +51,12 @@ body {
         color: white;
     }
     
+
+    .b{
+      padding: 50px;
+      
+    }
+    
     input {
         color: grey;
     }
@@ -40,7 +64,6 @@ body {
     /* Set a style for all buttons */
     button {
         display: flex;
-        justify-content: center;
         align-items: center;
         text-decoration: none;
         padding: 10px 20px;
